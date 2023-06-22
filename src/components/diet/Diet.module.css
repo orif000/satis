@@ -1,0 +1,77 @@
+.diet {
+    padding-top: 270px;
+    width: 100%;
+    background-image: url(./back.png);
+    background-repeat: no-repeat;
+    height: 110vh;
+}
+
+.father {
+    display: flex;
+}
+
+.box {
+    margin-right: 24px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(15, 70, 122, .14);
+    border-radius: 16px;
+    background-color: white;
+    height: 560px;
+    width: 517px;
+    padding: 24px;
+}
+
+.img_box {
+    width: 100%;
+    margin-bottom: 24px;
+    height: 256px;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 16px;
+    line-height: 130%;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.text {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #556a7d;
+}
+
+.minibox {
+    width: 90%;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 24px;
+    display: flex;
+}
+
+.btn_text {
+    color: #0c6bc5;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.date_box {
+    display: flex;
+    align-items: center;
+}
+
+.date_img {
+    margin-right: 12px;
+}
+
+.date {
+    margin: 0;
+    color: #556a7d;
+    font-size: 18px;
+    font-weight: 400;
+}

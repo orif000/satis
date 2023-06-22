@@ -1,0 +1,55 @@
+.about {
+    background-repeat: no-repeat;
+    background-image: url(./back.png);
+    padding: 270px 0;
+}
+
+.father {
+    padding: 32px;
+    border-radius: 16px;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(15, 70, 122, .14);
+}
+
+.box {
+    align-items: center;
+    padding: 80px;
+    display: flex;
+    background-color: #daedff;
+    border-radius: 12px;
+    margin-bottom: 80px;
+}
+
+.minibox {
+    width: 68%;
+}
+
+.title {
+    line-height: 130%;
+    color: #0c6bc5;
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.h {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.text {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.img {
+    height: 275px;
+    width: 367px;
+}
+
+.p {
+    color: #556a7d;
+}

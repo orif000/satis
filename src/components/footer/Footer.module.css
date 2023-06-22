@@ -1,0 +1,102 @@
+.footer {
+    background-size: cover;
+    height: 493px;
+    padding-top: 100px;
+    background-image: url(./back.png);
+}
+
+.satis {
+    margin-bottom: 56px;
+    width: 100%;
+}
+
+.img_box {
+    width: 322px;
+    margin: 0 auto;
+}
+
+.chiziq {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.377);
+}
+
+.menu {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 24px 0;
+    width: 80%;
+    display: flex;
+}
+
+.link {
+    margin-right: 24px;
+    font-size: 24px;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.link:hover {
+    color: #0c6bc5;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    margin-bottom: 0;
+    margin-right: 26px;
+    height: 38px;
+    width: 38px;
+}
+
+.contact {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chiziq_two {
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.377);
+    height: 40px;
+    width: 1px;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s linear;
+}
+
+.text:hover {
+    color: #0c6bc5;
+}
+
+.bottom {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more {
+    font-size: 18px;
+    opacity: .8;
+    color: white;
+}
+
+.svg {
+    width: 30px;
+    margin-right: 24px;
+}
+
+.minibox {
+    display: flex;
+    align-items: center;
+}
