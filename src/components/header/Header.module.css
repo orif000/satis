@@ -76,3 +76,32 @@
 .m_link:hover {
     color: #2f99e6;
 }
+
+.link_two {
+    margin-bottom: 40px;
+    display: block;
+    font-weight: 500;
+    color: black;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.of_box {
+    margin-bottom: 90px;
+}
+
+.contact {
+    align-items: center;
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.contact_text {
+    font-size: 20px;
+    color: #0c6bc5;
+}
+
+.contact_img {
+    width: 24px;
+    height: 24px;
+}

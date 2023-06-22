@@ -5,6 +5,9 @@ import statis from './statis.png'
 import { Button, Modal, Offcanvas } from 'react-bootstrap'
 import axios from 'axios'
 import { NavLink } from 'react-router-dom'
+import tel from './tel.svg'
+import gps from './gps.svg'
+import mail from './email.svg'
 
 function Header() {
     const [state, setstate] = useState([])
@@ -39,11 +42,25 @@ delete state[5]
                 <Offcanvas.Header closeButton id={a.o_head} >
                 </Offcanvas.Header>
                 <Offcanvas.Body id={a.body}>
+                <div className={a.of_box}>
                 {state.map((item, index)=>{
                 return(
-                    <h1 key={index} className={a.link}>{item.title}</h1>
-                )
-            })}
+                    <NavLink to={item.link} key={index} className={a.link_two}>{item.title}</NavLink>
+                    )
+                })}
+                </div>
+                <div className={a.contact}>
+                    <img src={tel} className={a.contact_img}/>
+                    <h1  className={a.contact_text}>+998 90 115 13 33</h1>
+                </div>
+                <div className={a.contact}>
+                    <img src={mail} className={a.contact_img}/>
+                    <h1  className={a.contact_text}>info@sightex.uz</h1>
+                </div>
+                <div className={a.contact}>
+                    <img src={gps} className={a.contact_img}/>
+                    <h1  className={a.contact_text}>Массив Ялангач 119А, Ташкент</h1>
+                </div>
                 </Offcanvas.Body>
             </Offcanvas>
 
